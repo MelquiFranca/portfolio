@@ -1,0 +1,39 @@
+.corpo-experiencia {    
+    min-height: 500px;
+    width: 930px;
+    flex-wrap: wrap;
+}
+
+.card-exp { 
+    background: #FFF;
+    width: 45%;
+    height: 300px;
+    border-top: 6px solid #f04957da;
+    box-shadow: 0px 1px 5px 1px #666;
+    flex-direction: column;    
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+}
+
+.card-exp:nth-child(odd) {
+    /* margin-top: 50px; */
+}
+.card-exp:nth-child(even) {
+    margin-top: 50px;
+}
+
+.card-exp .imagem-exp {
+    width: 180px;
+    height: 90px;
+}
+
+.card-exp .data-exp {
+    justify-content: center;
+    align-items: center;
+    color: #f04957da;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+}

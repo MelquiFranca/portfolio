@@ -1,0 +1,45 @@
+.preload-corpo {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    background: #EEE;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.preload-externo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation-name: zoom;
+    animation-iteration-count: infinite ;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    background: #CCC;
+    justify-content: center;
+    align-items: center;
+}
+.preload-interno {
+    background: #777;
+    border-radius: 50%;
+    animation-name: zoom;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-delay: 100ms;
+    animation-fill-mode: backwards;
+    width: 60%;
+    height: 60%;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1px);
+        opacity: 0;
+    }
+
+}

@@ -1,0 +1,115 @@
+.card-corpo {
+    margin-top: 170px;
+    background: #FFF;
+    z-index: 3;
+    width: 930px;
+    height: 540px;
+    box-shadow: 0px 0px 5px 0px #777;
+    flex-direction: column;
+}
+
+.card-principal {
+    flex: 1;
+    padding: 50px;
+    flex-direction: row;
+}
+
+.card-principal .conteudo {
+    flex: 1;
+    margin-left: 50px;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.card-principal .conteudo .superior {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DDD;
+    color: #444;
+}
+
+.conteudo .superior .ola {
+    align-items: flex-start;
+    padding: 3px 20px;
+    background: #f04957da;
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+    color: #FFF;
+}
+.conteudo .superior .saudacao {
+    font-size: 25px;
+    width: 100%;    
+    justify-content: flex-start;
+    color: #444;
+}
+.conteudo .superior .saudacao span {
+    font-weight: bold;
+    display: inline;
+    margin: 0 5px;
+}
+.conteudo .superior .funcao { 
+    font-size: 19px;
+    color: #666;
+}
+.card-principal .conteudo .inferior {
+    flex: 3;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.conteudo .inferior div {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.conteudo .inferior label {
+    justify-content: flex-start;
+    flex: 1;
+    font-weight: bold;
+    color: #444;
+}
+.conteudo .inferior span {
+    justify-content: flex-start;
+    flex: 3;
+    color: #999;
+}
+.card-imagem {
+    width: 300px;
+    height: 100%;
+    background-size: cover;
+}
+
+.card-rodape {
+    height: 100px;
+    width: 100%;
+    background: #f04957da;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+.card-rodape .social-lista {
+    width: 100%;
+    justify-content: center;    
+}
+.card-rodape .social-lista .social-item {
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 25px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.social-lista .social-item:hover {
+    background: #db394788;
+    transition: background 0.4s;
+}

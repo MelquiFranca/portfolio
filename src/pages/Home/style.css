@@ -1,0 +1,33 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    animation-name: aparecer;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    background: #EEE;
+}
+.painel {
+    background-image: url('../../assets/background.jpg');
+    background-size: cover;
+    height: 80vh;
+    /* opacity: 0.9; */
+    filter: blur(2px);  
+    /* border-bottom: 1px solid #999;  */
+    position: absolute; 
+    top: 0;
+}
+
+.titulo {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: #444;
+    margin-top: 100px;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    
+}
